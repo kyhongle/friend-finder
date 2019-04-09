@@ -5,8 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style2.css" />
   </head>
   <body>
-    <h1>survey</h1>
+    <div class="container">
+      <header>Who are you?</header>
+      <br />
+      <form>
+        Name:
+        <input id="name" type="text" name="name" value="required" />
+        Photo:
+        <input id="photo" type="text" name="name" value="required" />
+      </form>
+      <br />
+      <div class="questions">
+        <div class="q1">
+          <p>1. Have you ever own an animal before?</p>
+          <div id="custom-select">
+            <select id="q1">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q2">
+          <p>2. How would you descibe your living space?</p>
+          <div id="custom-select">
+            <select id="q2">
+              <option></option>
+              <option value="1">1 (small)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (big)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q3">
+          <p>3. Do you like hairy animals?</p>
+          <div id="custom-select">
+            <select id="q3">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q4">
+          <p>4. Are you at home a lot?</p>
+          <div id="custom-select">
+            <select id="q4">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q5">
+          <p>5. Do you clean your place often?</p>
+          <div id="custom-select">
+            <select id="q5">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q6">
+          <p>6. Do you like to take a walk in the park?</p>
+          <div id="custom-select">
+            <select id="q6">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q7">
+          <p>7. Was biology your favorite subject in school?</p>
+          <div id="custom-select">
+            <select id="q7">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q8">
+          <p>8. Are you intelligent?</p>
+          <div id="custom-select">
+            <select id="q8">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q9">
+          <p>1. Do you have children?</p>
+          <div id="custom-select">
+            <select id="q9">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+        <div class="q10">
+          <p>10. Do you party a lot?</p>
+          <div id="custom-select">
+            <select id="q10">
+              <option></option>
+              <option value="1">1 (strongly agree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (strongly disagree)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <button type="submit" class="submit">Submit</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
