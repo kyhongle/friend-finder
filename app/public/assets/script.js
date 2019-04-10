@@ -17,7 +17,9 @@ $(document).ready(function() {
         $("#q10").val()
       ]
     };
-
-    // $.post("")
+    console.log(userInput);
+    $.post("/api/survey", userInput, function(result) {
+      console.log(result);
+    });
   });
 });
